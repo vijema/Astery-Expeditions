@@ -18,10 +18,7 @@ const sdk = ThirdwebSDK.fromPrivateKey(process.env.PRIVATE_KEY, "polygon", {
   
     try {
       await drop.createBatch([
-        "https://my-json-server.typicode.com/vijema/Astery-Expeditions/expeditions/0",
-        "https://my-json-server.typicode.com/vijema/Astery-Expeditions/expeditions/1",
-        "https://my-json-server.typicode.com/vijema/Astery-Expeditions/expeditions/2",
-        "https://my-json-server.typicode.com/vijema/Astery-Expeditions/expeditions/3",
+              "https://my-json-server.typicode.com/vijema/Astery-Expeditions/expeditions/3",
       ]);
       console.log("uploaded all nfts");
     } catch (error) {
