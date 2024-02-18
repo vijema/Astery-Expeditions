@@ -1,5 +1,5 @@
 {
-  "Expeditions":
+  "expeditions":
 
 [
   {	"id": 0,
@@ -14,7 +14,8 @@
       
     ]
   },
-  { "id": 1 "Test #2",
+  { "id": 1,
+    "name": "Test #2",
     "description": "Test #2",
     "image": "ipfs://QmPs4RMEz6Nb1F6edqTKNwGFXcvwinUaF456VQNogGXd7k/1.jpg",
     "attributes": [
