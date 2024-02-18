@@ -10,7 +10,7 @@ const sdk = ThirdwebSDK.fromPrivateKey(process.env.PRIVATE_KEY, "polygon", {
 
 (async () => {
     const drop = await sdk.getContract(
-      "0x5E743d0b65b6dB8Ee666d58f6cc978Eeac5b7547",
+      "0xf0Cd04492E937734a8d2CD1022824f90F5Ad43d6",
       "nft-drop"
     );
   
