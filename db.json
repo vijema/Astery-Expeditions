@@ -1,0 +1,41 @@
+{
+  "Astery Expeditions":
+
+[
+  {	"id": 0,
+    "name": "Test #1",
+    "description": "Test #1",
+    "image": "ipfs://Qmar5cSuTvJ816NBRxR8ToffRnA1CbxcaoedzreeEvMayL/0.jpg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Black"
+      }
+      
+    ]
+  },
+  { "id": 1 "Test #2",
+    "description": "Test #2",
+    "image": "ipfs://QmPs4RMEz6Nb1F6edqTKNwGFXcvwinUaF456VQNogGXd7k/1.jpg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Black"
+      }
+      
+    ]
+  },
+  { "id": 2,
+    "name": "Test #3",
+    "description": "Test #3",
+    "image": "ipfs://QmPs4RMEz6Nb1F6edqTKNwGFXcvwinUaF456VQNogGXd7k/1.jpg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Black"
+      }
+      
+    ]
+  }
+]
+}
