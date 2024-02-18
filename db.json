@@ -36,6 +36,11 @@
     "name": "Test #1",
     "description": "Test #1",
     "image": "ipfs://Qmar5cSuTvJ816NBRxR8ToffRnA1CbxcaoedzreeEvMayL/0.jpg"   
+  },
+  { "id": 7,
+    "name": "Test #2",
+    "description": "Test #2",
+    "image": "ipfs://QmPs4RMEz6Nb1F6edqTKNwGFXcvwinUaF456VQNogGXd7k/1.jpg"
   }
 ]
 }
