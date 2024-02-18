@@ -18,7 +18,7 @@ const sdk = ThirdwebSDK.fromPrivateKey(process.env.PRIVATE_KEY, "polygon", {
   
     try {
       await drop.createBatch([
-              "https://my-json-server.typicode.com/vijema/Astery-Expeditions/expeditions/7"
+              "https://my-json-server.typicode.com/vijema/Astery-Expeditions/expeditions/8"
 
               // 1) Меняем индекс в ссылке выше
               // 2) Добавляем новую мету в db.json и коммитим - ждем апдейта по ссылке
