@@ -1,6 +1,8 @@
 import { ThirdwebSDK } from "@thirdweb-dev/sdk";
 import { config } from "dotenv";
 
+
+
 config();
 
 
@@ -10,8 +12,8 @@ const sdk = ThirdwebSDK.fromPrivateKey(process.env.PRIVATE_KEY, "polygon", {
 
 (async () => {
     const drop = await sdk.getContract(
-      "0xf0Cd04492E937734a8d2CD1022824f90F5Ad43d6"
-      
+      "0xf0Cd04492E937734a8d2CD1022824f90F5Ad43d6",
+      "edition-drop"
     );
   
     try {
@@ -25,3 +27,4 @@ const sdk = ThirdwebSDK.fromPrivateKey(process.env.PRIVATE_KEY, "polygon", {
       console.log(error);
     }
   })();
+
